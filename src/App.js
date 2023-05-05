@@ -45,7 +45,7 @@ export default function App() {
     return (
         <>
             <NewTodoForm addTodo={addTodo}/>
-            <h1 className='header'>Todo List</h1>
+            <h1 className='header'> todo List</h1>
             <TodoList todos={todos} toggleTodos={toggleTodos} deleteTodos={deleteTodos}/>
         </>
     )
